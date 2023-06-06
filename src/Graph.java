@@ -46,7 +46,7 @@ public class Graph<E> {
 	 * 
 	 * @param startVertexName The first vertex you are connecting.
 	 * @param endVertexName   The second vertex you are connecting.
-	 * @param cost			  The cost it takes to travel the edge.
+	 * @param cost	          The cost it takes to travel the edge.
 	 * 
 	 * @throws IllegalArgumentException If the user enters a vertex name that is
 	 *                                  not in the map.
@@ -189,10 +189,10 @@ public class Graph<E> {
 	 * occurs in a depth first order.
 	 * 
 	 * @param startVertexName The starting vertex of the breadthFirst processing.
-	 * @param callback		  Represents the processing to be called on each vertex.
+	 * @param callback.       Represents the processing to be called on each vertex.
 	 * 
 	 * @throws IllegalArgumentException If the starting vertex is not in the 
-	 * 									graph.
+	 * 				    graph.
 	 */
 	public void doDepthFirstSearch(String startVertexName, CallBack<E> callback) {
 		if (dataMap.get(startVertexName) == null) {
