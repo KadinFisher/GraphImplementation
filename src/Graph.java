@@ -9,12 +9,12 @@ import java.util.*;
  * adjacency map instead of an adjacency matrix. Additionally, this is a weighted
  * directed graph.
  * 
- * @author cmsc132
+ * @author King Bass
  * 
  * @param <E> The data you would like each vertex to hold.
  */
 public class Graph<E> {
-	/* You must use the following maps in your implementation */
+	
 	private HashMap<String, HashMap<String, Integer>> adjacencyMap;
 	private HashMap<String, E> dataMap;
 	
